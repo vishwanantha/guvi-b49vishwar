@@ -1,0 +1,40 @@
+let continent = 'Asia';
+   let countries = [
+      "Bahra",
+      'China',
+      'East Timor',
+      'India',
+      'Indonesia',
+      'Iran',
+      'Iraq',
+      'Israel',
+      'Japan',
+      'Jordan',
+      'Kazakhstan',
+      'Myanmar',
+      'North Korea',
+      'South Korea',
+      'Kuwait',
+      'Kyrgy',
+      'zstan',
+      'Laos',
+      'Malaysia',
+      'Oman',
+      'Pakistan',
+      'Qatar',
+      'Russian Federation',
+      'Saudi Arabia',
+      'Singapore',
+      'Taiwan',
+      'Thailand',
+      'Turkey',
+      'Turkmenistan',
+      'United Arab Emirates',
+      'Uzbekistan',
+      'Vietnam',
+      'Yemen',
+    ];
+  let filteredarr = countries.filter(function(item){
+    return item;
+  });
+  console.log(filteredarr);
